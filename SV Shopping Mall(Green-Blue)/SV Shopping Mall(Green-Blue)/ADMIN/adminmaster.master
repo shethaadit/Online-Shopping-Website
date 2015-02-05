@@ -1,0 +1,34 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminmaster.master.cs" Inherits="adminmaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Online Shopping Mall</title>
+</head>
+<body class="division">
+    <form id="form1" method="post" runat="server">
+        <div id="container">
+            <div id="header">
+                <img src="../App_Themes/ADMIN/images/header3.jpg" align="left" alt="No Image"/>
+                <img src="../App_Themes/ADMIN/images/bag (1).jpg" align="left" alt="No Image"/>
+            </div>
+            <div style="left:0px; top:20%; height:3%; width:100%;">
+            </div>
+             <div id="menubar">
+            </div>
+            <!-- end #header -->
+            <div id="sidebar">
+                <asp:ContentPlaceHolder ID="cntsidear" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!-- end #sidebar -->
+            <div id="mainContent">
+                <asp:ContentPlaceHolder ID="cntmaincontent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!-- end #mainContent -->
+        </div>
+        <!-- end #container -->
+    </form>
+</body>
+</html>

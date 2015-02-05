@@ -1,0 +1,28 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LoginMasterPage.master.cs" Inherits="LoginMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Online Shopping Mall</title>
+</head>
+<body class="division">
+    <form id="form1" method="post" runat="server">
+        <div style="width:1000px; height:600px; left:0px; top:0px;">
+            <div style="left:0px; top:0px; width:100%; height:120px;">
+                <img src="../App_Themes/ADMIN/images/header3.jpg" align="left" alt="No Image" />
+                <img src="../App_Themes/ADMIN/images/bag (1).jpg" align="left" alt="No Image" />
+            </div>
+            <div style="left:0px; top:20%; height:2%; width:100%;">
+            </div>
+            <div style="left:0px; top:22%; height:10%; width:100%;">
+                <img src="../App_Themes/ADMIN/images/img01.gif" align="left" alt="No Image" style="width:100%; height:20%;"/>
+            </div>
+            <div style="left:0px; top:33%; ">
+                <asp:ContentPlaceHolder ID="cntmaincontent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

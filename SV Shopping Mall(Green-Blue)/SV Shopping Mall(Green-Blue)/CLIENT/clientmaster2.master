@@ -1,0 +1,36 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="clientmaster2.master.cs" Inherits="CLIENT_clientmaster2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Online Shopping Mall</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="main" cellpadding="0" cellspacing="0">
+        <tr style="height:20%;">
+            <td>
+                <asp:ContentPlaceHolder ID="cntheader" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td><hr size="2" style="color:#87A019"></td>
+        </tr>
+        <tr>
+            <td valign="top">
+               <asp:ContentPlaceHolder ID="cntmaincontent" runat="server">
+               </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr style="height:25%;">
+            <td valign="top">
+                <!-- #include file="footer.aspx" -->  
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
+
